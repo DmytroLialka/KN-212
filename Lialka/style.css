@@ -8,6 +8,10 @@ body {
  }
 
 
+#mainContent {
+    margin-top: 80px;
+}
+
 th, td {
     color: #838383; !important;
 }
