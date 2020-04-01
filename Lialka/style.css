@@ -5,3 +5,26 @@ body {
     background-size: cover;
     -o-background-size: cover;
 }
+
+
+th, td {
+    color: #838383; !important;
+}
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.square {
+    width: 300px;
+    height: 100%;
+    border: 1px solid black;
+    margin: 10px;
+    float: left;
+    padding: 30px;
+    text-align: center;
+    background-color: lightgray;
+}
