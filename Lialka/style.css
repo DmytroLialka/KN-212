@@ -34,3 +34,10 @@ th, td {
     background-color: lightgray;
 }
 
+.nav-link {
+    display: block;
+}
+
+.invisible {
+    display: none;
+}

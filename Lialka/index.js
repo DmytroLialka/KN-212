@@ -1,4 +1,19 @@
-
+let checker = 0;
+function switcher() {
+    console.log('вызов')
+    let invisible = document.getElementsByClassName('nav-link');
+    console.log(checker)
+    console.log(invisible);
+    if (checker === 0) {
+        invisible[0].className = 'nav-link invisible';
+        invisible[4].className = 'nav-link';
+        checker++;
+    } else {
+        invisible[4].className = 'nav-link invisible';
+        invisible[0].className = 'nav-link';
+        checker--;
+    }
+}
 
 
 function validate(form_id,email) {
